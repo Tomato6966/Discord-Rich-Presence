@@ -40,7 +40,7 @@ You can copy a **Shortcut-File**/**Linking-File** of the exe in the start up Fol
 
 You can always Support me by inviting one of my **own Discord Bots**
 
-[![Musicium Music Bot](https://cdn.discordapp.com/attachments/742446682381221938/770055673965707264/test1.png)](https://bit.ly/Musicium)
+[![Musicium Music Bot](https://cdn.discordapp.com/attachments/742446682381221938/770055673965707264/test1.png)](dc.musicium.eu)
 [![Milrato Muslti Bot](https://cdn.discordapp.com/attachments/742446682381221938/770056826724679680/test1.png)](https://bit.ly/Milrato)
 
 [| fork my repository  |](https://github.com/user/repository/fork)
