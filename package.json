@@ -1,0 +1,35 @@
+{
+  "name": "discord-rpc",
+  "version": "1.4.2",
+  "description": "A Discord Rich Presence built with nodejs and discord-rpc, with 2 buttons!",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "author": "Tomato#6966",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord-rpc": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomato6966/Discord-Rich-Presence.git"
+  },
+  "keywords": [
+    "Discord",
+    "RPC",
+    "RichPresence",
+    "Rich-Presence",
+    "Presence",
+    "Buttons",
+    "Status",
+    "Disscord-rpc"
+  ],
+  "bugs": {
+    "url": "https://github.com/Tomato6966/Discord-Rich-Presence/issues"
+  },
+  "homepage": "https://github.com/Tomato6966/Discord-Rich-Presence#readme",
+  "devDependencies": {}
+}

@@ -1,0 +1,15 @@
+{
+    "CLIENT_ID": "811537930253238293",
+    "rpc_activity": {
+        "details": "2021's Best Bots",
+        "state": "Free Bots | 24/7 Uptime",
+        "largeImageKey": "milrato",
+        "smallImageKey": "javascript",
+        "largeImageText": "https://milrato.eu",
+        "smallImageText": "NodeJs Developer",
+        "buttons": [
+            { "label": "Free Bot Shop", "url": "https://discord.gg/h9MEtTz2DY" },
+            { "label": "2021's Best Music Bot", "url": "https://lava.milrato.eu" }
+        ]
+    }   
+}
