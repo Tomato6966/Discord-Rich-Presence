@@ -69,7 +69,11 @@ fs.watch(configfilepath, (event, filename) => {
 //once the rich presence got ready, set it
 rpc.on("ready", () => {
   //set the rich presence
-  set_rpc()
+  set_rpc() 
+  //LOOP FOR FOR each 60 seconds
+  setTimeout( () => {
+    set_rpc();
+  }, 60e3)
 
   //log that it's ready
   try {
