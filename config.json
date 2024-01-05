@@ -1,15 +1,17 @@
 {
-    "CLIENT_ID": "811537930253238293",
+    "rpc_activity_allKeys": {
+
+    },
+    "CLIENT_ID": "1068868597398650971",
     "rpc_activity": {
-        "details": "2021's Best Bots",
-        "state": "Free Bots | 24/7 Uptime",
-        "largeImageKey": "milrato",
-        "smallImageKey": "javascript",
-        "largeImageText": "https://milrato.eu",
-        "smallImageText": "NodeJs Developer",
+        "state": "Fast, Secure, Music, enjoyable",
+        "largeImageKey": "mivator",
+        "smallImageKey": "typescript",
+        "largeImageText": "https://mivator.com",
+        "smallImageText": "Written in Typescript",
         "buttons": [
-            { "label": "Free Bot Shop", "url": "https://discord.gg/h9MEtTz2DY" },
-            { "label": "2021's Best Music Bot", "url": "https://lava.milrato.eu" }
+            { "label": "Discord Server", "url": "https://discord.gg/5dUb7M2qCj" },
+            { "label": "Invite", "url": "https://invite.mivator.com" }
         ]
     }   
 }

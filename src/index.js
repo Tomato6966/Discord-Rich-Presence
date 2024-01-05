@@ -1,6 +1,6 @@
 //require the module of the richpresence
-var RPC = require("discord-rpc");
-var rpc = new RPC.Client({
+const RPC = require("discord-rpc");
+const rpc = new RPC.Client({
   transport: "ipc"
 });
 
@@ -8,13 +8,14 @@ var rpc = new RPC.Client({
 require("colors");
 
 //require the config file for all of the settings
-var config = require("../config.json")
+let config = require("../config.json")
 
 //A Map for us | for the cooldowns ;)
-let map = new Map();
+const map = new Map();
+const snowflake = /^(?<id>\d{17,20})$/;
 
 //Check the config.json file
-if (config.CLIENT_ID.length != 18) throw new SyntaxError("ERROR! PLEASE ENTER A VALID CLIENT_ID")
+if (!snowflake.test(config.CLIENT_ID)) throw new SyntaxError("ERROR! PLEASE ENTER A VALID CLIENT_ID")
 if (config.rpc_activity.buttons.length > 2) throw new SyntaxError("THE MAXIMUM AMOUNT OF BUTTONS IS 2")
 
 if(config.rpc_activity.buttons.length == 2) {
@@ -114,8 +115,7 @@ async function set_rpc(option) {
         console.log(`     ┃ `.bold.brightGreen + `  |-> ${`Displaying for: `.magenta}${rpc.user.username}#${rpc.user.discriminator}`.bold.brightGreen + " ".repeat(-1 + stringlength - ` ┃ `.length - `  |-> Displaying for: ${rpc.user.username}#${rpc.user.discriminator}`.length) + "┃".bold.brightGreen)
         console.log(`     ┃ `.bold.brightGreen + " ".repeat(-1 + stringlength - ` ┃ `.length) + "┃".bold.brightGreen)
         console.log(`     ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛`.bold.brightGreen)
-      } catch {
-        /* */ }
+      } catch { /* */ }
     }
     //set the activity
     await rpc.setActivity(config.rpc_activity)
